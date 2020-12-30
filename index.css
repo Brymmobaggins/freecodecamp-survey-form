@@ -1,0 +1,103 @@
+body {
+  font-family: "tahoma";
+}
+.main {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: rgb(14, 5, 5);
+  overflow-y: scroll;
+  top: 0;
+}
+.main::after {
+  content: "";
+  background: rgb(206, 197, 197);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.main > p,
+.main > h1 {
+  text-align: center;
+  position: relative;
+  font-size: 1.8em;
+  font-family: sans-serif;
+  z-index: 2;
+  margin-bottom: ;
+}
+.main-content {
+  background: rgb(166, 231, 231);
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  z-index: 2;
+  position: relative;
+  box-shadow: 0px 1px 2px 5px papayawhip;
+}
+#name,
+#email,
+#number,
+#dropdown,
+#comments {
+  display: block;
+  width: 100%;
+  height: 35px;
+  padding: 5px 10px;
+  color: #000000;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  font-size: 15px;
+  margin-bottom: 20px;
+  outline-color: rgb(250, 244, 236);
+}
+label[for="name"],
+label[for="email"],
+label[for="number"],
+label[for="dropdown"],
+label[for="comments"] {
+  margin-bottom: 2px;
+  display: inline-block;
+}
+#backend-projects,
+#frontend-projects,
+#video-quality,
+#data-visualization,
+fieldset input {
+  height: 15px;
+  width: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#comments {
+  min-height: 180px;
+}
+b {
+  font-size: 50px;
+}
+label[for="comments"] {
+  margin-top: 30px;
+}
+#submit {
+  width: 100%;
+  display: block;
+  padding: 0.75rem;
+  background: rgb(32, 140, 248);
+  cursor: pointer;
+  color: #ffff;
+  font-size: 20px;
+  border: 0;
+  border-radius: 2px;
+  letter-spacing: 1px;
+}
+#submit:hover {
+  background-color: rgb(31, 134, 252);
+}
