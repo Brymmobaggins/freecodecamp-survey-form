@@ -9,7 +9,7 @@ body {
   left: 0;
   color: rgb(14, 5, 5);
   overflow-y: scroll;
-  top: 0;
+  
 }
 .main::after {
   content: "";
@@ -27,7 +27,6 @@ body {
   font-size: 1.8em;
   font-family: sans-serif;
   z-index: 2;
-  margin-bottom: ;
 }
 .main-content {
   background: rgb(166, 231, 231);
