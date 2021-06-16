@@ -4,7 +4,7 @@ This project and code written is built for choose to hone my skills in frontend 
 
 ## Screenshot
  
-![project img](./img/Screen%20Shot%202021-06-16%20at%2012.50.14%20PM.png)
+![project img](./img/SurveryForm_Screenshot.png)
 
 ## Built with
 
