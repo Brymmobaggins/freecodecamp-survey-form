@@ -1,8 +1,6 @@
 # Freecodecamp challenge Survey form
 
-This project and code written is built for choose to hone my skills in frontend development. Subsequently,I will be implementing more features, collecting data from users for functionalities.
-
-## Screenshot
+ ## Screenshot
  
 ![project img](./img/SurveryForm_Screenshot.png)
 
